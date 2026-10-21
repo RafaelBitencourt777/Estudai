@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudaí</title>
+    <link href="perguntas.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="cabecalho">
+        <a href="../pages/index.html">
+            <img class="logo" src="../../assets/images/logo.jpeg"/>
+        </a>
+    </div>
+
+    <div class="meio">
+
+        <div class="m1">
+            <div class="md">
+                <img id="imagemMateria" src=""/>
+                <div class="text">
+                    <h2 id="nomeMateria"></h2>
+                    <p id="nivelMateria"></p>
+                </div>
+            </div>
+
+            <div class="s">
+                <a href="../pages/index.html">
+                    <img src="../../assets/images/x.png"/>
+                    <h2>Sair do Quiz</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="m2">
+            <div class="qn">
+                <h2>Questão <span id="numeroQuestao">1</span> de 10</h2>
+            </div>
+            <div class="porc">
+                <h2><span id="porcentagem">10%</span></h2>
+            </div>
+        </div>
+
+        <div class="barra-fundo">
+            <div id="barraProgresso"></div>
+        </div>
+
+        <div class="m3">
+            <div class="lca">
+                <img src="../../assets/images/relogio.png"/>
+                <h2>LEIA COM ATENÇÃO</h2>
+            </div>
+            <h1 id="enunciadoQuestao">Em “Precisa-se de funcionários”, o sujeito é:</h1>
+            <div class="alternativas" data-indice="0">
+                <img src="../../assets/images/a.png" alt="Alternativa A"/>
+                <h2></h2>
+            </div>
+            <div class="alternativas" data-indice="1">
+                <img src="../../assets/images/b.png" alt="Alternativa B"/>
+                <h2></h2>
+            </div>
+            <div class="alternativas" data-indice="2">
+                <img src="../../assets/images/c.png" alt="Alternativa C"/>
+                <h2></h2>
+            </div>
+            <div class="alternativas" data-indice="3">
+                <img src="../../assets/images/d.png" alt="Alternativa D"/>
+                <h2></h2>
+            </div>
+            <div class="botoes">
+                <button class="qa">
+                    <img src="../../assets/images/setaec.png"/>
+                    Questão anterior
+                </button>
+
+                <button class="pq">
+                    Próxima Questão
+                    <img src="../../assets/images/set.png"/>
+                </button>
+            </div>
+        </div>
+
+        <p>Você pode alterar sua resposta antes de avançar.</p>
+
+    </div>
+
+    <script src="../js/perguntas.js"></script>
+</body>
+</html>
